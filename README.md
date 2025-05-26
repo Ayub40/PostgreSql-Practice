@@ -43,7 +43,7 @@ UPDATE স্টেটমেন্ট দিয়ে টেবিলের ব�
 
 উদাহরণ:
 
-```javascript
+```postgressql
 UPDATE species
 SET conservation_status = 'Endangered'
 WHERE common_name = 'Red Panda';
