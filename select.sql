@@ -32,33 +32,33 @@ VALUES
 ('Sophia', 'Moore', 22, 'A', 'English', 'sophia.moore@example.com', '2002-12-05', 'O-', 'UK');
 
 -- * mark dile all data dekhabe
--- SELECT * FROM students;
+SELECT * FROM students;
 
 -- 1 ta ba multiple data dekhte pg_collation_is_visible
--- SELECT email,age,blood_group FROM students;
+SELECT email,age,blood_group FROM students;
 
 -- orginal name email but dekhanor somy onno name e dekhte caile
--- SELECT email as "Student Email" FROM students; 
+SELECT email as "Student Email" FROM students; 
 
 -- ascending order or descending order dia dekhte caile 
--- SELECT * FROM students ORDER BY first_name ASC;
--- SELECT * FROM students ORDER BY age DESC;
--- SELECT country FROM students ORDER BY country ASC;
+SELECT * FROM students ORDER BY first_name ASC;
+SELECT * FROM students ORDER BY age DESC;
+SELECT country FROM students ORDER BY country ASC;
 
 -- UNIQUE koita ase or DOUBLE thakle only 1ta nia baki golo niba na 
--- SELECT DISTINCT country FROM students;
+SELECT DISTINCT country FROM students;
 
--- SELECT * FROM students
---   WHERE country ='USA';
+SELECT * FROM students
+  WHERE country ='USA';
 
--- SELECT * FROM students
---   WHERE grade ='A' AND course='Physics';
+SELECT * FROM students
+  WHERE grade ='A' AND course='Physics';
 
--- SELECT * FROM students
---      WHERE country = 'USA' OR country='Australia';
+SELECT * FROM students
+     WHERE country = 'USA' OR country='Australia';
 
--- SELECT * FROM students
---      WHERE (country = 'USA' OR country='Australia') AND age=20;
+SELECT * FROM students
+     WHERE (country = 'USA' OR country='Australia') AND age=20;
 
 SELECT * FROM students
 -- WHERE age <

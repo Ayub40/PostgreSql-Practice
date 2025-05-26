@@ -220,6 +220,10 @@ VALUES (
         '2021-11-20'
     );
 
+SELECT * FROM employees;
+
+SELECT * FROM departments;
+
 -- 1. Inner Join to Retrieve Employee and Department Information
 SELECT * FROM employees
     JOIN departments ON employees.department_id = departments.department_id;
